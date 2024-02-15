@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/sript.js"></script>
+    <title>Konversi Suhu Celcius dan Fahrenheit</title>
+  </head>
+  <body>
+    <div class="row">
+      <div class="row-celcius">
+        <p>
+          Masukkan suhu derajat celcius ( &deg; C ) ke kotak dibawah, lalu klik
+          tombol konversi untuk mendapatkan hasil konversi dalam bentuk
+          Fahrenheit (&deg; F )
+        </p>
+        <label for="Celcius">Celcius ( &deg; C): </label><br />
+        <textarea
+          class="input-celcius"
+          id="input-celcius"
+          type="number"
+        ></textarea>
+        <br />
+        <button onclick="celsiusToFahrenheit()" class="konversi-fahrenheit">
+          Konfersi
+        </button>
+        <button onclick="resetForm()" class="reset-fahrenheit">Reset</button>
+        <button onclick="reverseConversion()" class="reverse-fahrenheit">
+          Reverse</button
+        ><br />
+        <label for="Celcius">Fahrenheit ( &deg; F): </label><br />
+        <textarea
+          id="hasil-fahrenheit"
+          class="hasil-fahrenheit"
+          type="text"
+        ></textarea>
+        <br />
+        <label for="Celcius">Cara Kalkulasi : </label><br />
+        <textarea id="hasil-kalkulasi" type="text"></textarea>
+        <br />
+      </div>
+    </div>
+  </body>
+</html>

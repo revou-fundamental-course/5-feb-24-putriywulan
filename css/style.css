@@ -1,0 +1,66 @@
+/* Gaya untuk div dengan kelas "row" */
+.row {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+/* Gaya untuk div dengan kelas "row-celcius" */
+.row-celcius {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+/* Gaya untuk elemen p */
+.row-celcius p {
+  margin-bottom: 10px;
+}
+
+/* Gaya untuk label */
+label {
+  font-weight: bold;
+}
+
+/* Gaya untuk textarea dengan kelas "input-celcius" */
+.input-celcius {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+/* Gaya untuk tombol konversi */
+.konversi-fahrenheit {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Gaya untuk tombol reset dan reverse */
+.reset-fahrenheit,
+.reverse-fahrenheit {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* Gaya untuk textarea dengan kelas "hasil-fahrenheit" */
+.hasil-fahrenheit {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+/* Gaya untuk textarea dengan ID "hasil-kalkulasi" */
+#hasil-kalkulasi {
+  width: 100%;
+  height: 100px; /* Ubah sesuai kebutuhan */
+  padding: 5px;
+  margin-bottom: 10px;
+}
